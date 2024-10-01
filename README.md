@@ -18,6 +18,16 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
+## Clone project
+```
+https://github.com/KuroIchi-Dir/Fp-Dicoding.git
+```
+## Setup steamlit
+```
+conda activate main-ds
+pip install streamlit
+```
+
 ## Run steamlit app
 ```
 streamlit run dashboard.py
