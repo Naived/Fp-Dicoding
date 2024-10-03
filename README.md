@@ -2,6 +2,11 @@
 ```
 project yg digunakan untuk melengkapi kebutuhan nilai final project
 ```
+## LINK GDIRVE
+```
+https://drive.google.com/file/d/1RCvw-ZXTT3tWAnvqgw0fUHfyzFPezAR4/view?usp=sharing
+```
+
 ## Setup Environment - Anaconda
 ```
 conda create --name main-ds python=3.9
