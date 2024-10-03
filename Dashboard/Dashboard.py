@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.sidebar.image("naiv.png", use_column_width=True)
+st.sidebar.image("https://raw.githubusercontent.com/KuroIchi-Dir/Fp-Dicoding/refs/heads/main/Dashboard/naiv.png", use_column_width=True)
 
 data_file = 'Ready_data.csv' 
 df = pd.read_csv(data_file)
