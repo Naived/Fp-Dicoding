@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.sidebar.image("https://raw.githubusercontent.com/KuroIchi-Dir/Fp-Dicoding/refs/heads/main/Dashboard/naiv.png", use_column_width=True)
 
-data_file = 'Ready_data.csv' 
+data_file = 'https://raw.githubusercontent.com/KuroIchi-Dir/Fp-Dicoding/refs/heads/main/Dashboard/Ready_data.csv' 
 df = pd.read_csv(data_file)
 
 df['order_approved_at'] = pd.to_datetime(df['order_approved_at'], errors='coerce')
